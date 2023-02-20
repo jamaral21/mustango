@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Customization module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+/**
+ * Implements hook_form_alter().
+ */
+function customization_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if ($form_id === 'node_contrato_form') {
+    $form['#attached']['library'][] = 'customization/customization';
+  }
+}
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function customization_preprocess_page(&$variables) {
+  if ($variables['is_front']) {
+    $variables['#attached']['library'][] = 'customization/design';
+  }
+}

@@ -1,0 +1,13 @@
+# Custom module library for general purposes.
+customization:
+  js:
+    js/customization.js: {}
+  css:
+    component:
+      css/customization.css: {}
+design:
+  js:
+    js/design.js: {}
+  css:
+    component:
+      css/design.css: {}

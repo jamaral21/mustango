@@ -1,0 +1,51 @@
+.region-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.path-frontpage .block-views-blockpresupuestos-bloque-block-1,
+.path-frontpage .block-views-blockdocumentos-que-necesitan-aprobacion-block-1,
+.path-frontpage .block-views-blockdocumentos-que-necesitan-seguimiento-block-1,
+.path-frontpage .block-views-blockestimaciones-por-cobrar-block-1 {
+  background: #17a2b8;
+  width: 25%;
+  padding: 25px 0;
+  display: inline-block;
+  margin: 0;
+  color: #FFF;
+  text-align: center;
+}
+
+.path-frontpage .block-views block-views-blockcontratos-block-1 {
+  width: 100%;
+}
+
+.path-frontpage .block-views-blockdocumentos-que-necesitan-aprobacion-block-1 {
+  background: #dc3545;
+}
+
+
+.path-frontpage .block-views-blockdocumentos-que-necesitan-seguimiento-block-1 {
+  background: #28a745;
+}
+
+.path-frontpage .block-views-blockestimaciones-por-cobrar-block-1 {
+  background: #ffc107;
+}
+
+.path-frontpage .block-views-blockpresupuestos-bloque-block-1 a,
+.path-frontpage .block-views-blockdocumentos-que-necesitan-aprobacion-block-1 a,
+.path-frontpage .block-views-blockdocumentos-que-necesitan-seguimiento-block-1 a,
+.path-frontpage .block-views-blockestimaciones-por-cobrar-block-1 a {
+  color: #FFF;
+  font-size: 18px;
+  padding-top: 10px;
+  display: block;
+}
+
+.path-frontpage .block-views-blockpresupuestos-bloque-block-1 div,
+.path-frontpage .block-views-blockdocumentos-que-necesitan-aprobacion-block-1 div,
+.path-frontpage .block-views-blockdocumentos-que-necesitan-seguimiento-block-1 div,
+.path-frontpage .block-views-blockestimaciones-por-cobrar-block-1 div {
+  font-size: 20px;
+}
